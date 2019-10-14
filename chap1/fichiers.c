@@ -4,7 +4,7 @@
 
 
 int main(int argc, char *argv[])
-{
+{   
     FILE* fichier = NULL;
 
     fichier = fopen("test.txt", "w");
@@ -16,6 +16,10 @@ int main(int argc, char *argv[])
         fprintf(fichier, "%d", 12);
         fclose(fichier);
     }
- 
+
+    
+    
+    
+
     return 0;
-}
+}  
